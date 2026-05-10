@@ -1,0 +1,166 @@
+2026-05-09 22:16:55,552 | INFO     | INICIO DE SIMULACIÓN — ATAQUE SOBRE BB84
+2026-05-09 22:16:55,552 | INFO     | Sistema objetivo: Distribución Cuántica de Claves (QKD)
+
+2026-05-09 22:16:55,552 | INFO     | ==========================================================
+2026-05-09 22:16:55,552 | INFO     | ATAQUE 1: Intercept-Resend Total (Eve intercepta 100%)
+2026-05-09 22:16:55,552 | INFO     | ==========================================================
+2026-05-09 22:16:55,554 | INFO     |   [01] CON Eve: QBER=0.2576 | SIN Eve: QBER=0.0000 | Clave sifted: 528 bits
+2026-05-09 22:16:55,556 | INFO     |   [02] CON Eve: QBER=0.2315 | SIN Eve: QBER=0.0000 | Clave sifted: 527 bits
+2026-05-09 22:16:55,558 | INFO     |   [03] CON Eve: QBER=0.2631 | SIN Eve: QBER=0.0000 | Clave sifted: 517 bits
+2026-05-09 22:16:55,561 | INFO     |   [04] CON Eve: QBER=0.2306 | SIN Eve: QBER=0.0000 | Clave sifted: 516 bits
+2026-05-09 22:16:55,563 | INFO     |   [05] CON Eve: QBER=0.2149 | SIN Eve: QBER=0.0000 | Clave sifted: 498 bits
+2026-05-09 22:16:55,565 | INFO     |   [06] CON Eve: QBER=0.2224 | SIN Eve: QBER=0.0000 | Clave sifted: 517 bits
+2026-05-09 22:16:55,567 | INFO     |   [07] CON Eve: QBER=0.2646 | SIN Eve: QBER=0.0000 | Clave sifted: 480 bits
+2026-05-09 22:16:55,569 | INFO     |   [08] CON Eve: QBER=0.2243 | SIN Eve: QBER=0.0000 | Clave sifted: 486 bits
+2026-05-09 22:16:55,571 | INFO     |   [09] CON Eve: QBER=0.2227 | SIN Eve: QBER=0.0000 | Clave sifted: 467 bits
+2026-05-09 22:16:55,573 | INFO     |   [10] CON Eve: QBER=0.2656 | SIN Eve: QBER=0.0000 | Clave sifted: 482 bits
+2026-05-09 22:16:55,575 | INFO     |   [11] CON Eve: QBER=0.2552 | SIN Eve: QBER=0.0000 | Clave sifted: 478 bits
+2026-05-09 22:16:55,577 | INFO     |   [12] CON Eve: QBER=0.2475 | SIN Eve: QBER=0.0000 | Clave sifted: 505 bits
+2026-05-09 22:16:55,579 | INFO     |   [13] CON Eve: QBER=0.2569 | SIN Eve: QBER=0.0000 | Clave sifted: 510 bits
+2026-05-09 22:16:55,582 | INFO     |   [14] CON Eve: QBER=0.2440 | SIN Eve: QBER=0.0000 | Clave sifted: 500 bits
+2026-05-09 22:16:55,584 | INFO     |   [15] CON Eve: QBER=0.2583 | SIN Eve: QBER=0.0000 | Clave sifted: 511 bits
+2026-05-09 22:16:55,586 | INFO     |   [16] CON Eve: QBER=0.2203 | SIN Eve: QBER=0.0000 | Clave sifted: 513 bits
+2026-05-09 22:16:55,588 | INFO     |   [17] CON Eve: QBER=0.2279 | SIN Eve: QBER=0.0000 | Clave sifted: 509 bits
+2026-05-09 22:16:55,590 | INFO     |   [18] CON Eve: QBER=0.2743 | SIN Eve: QBER=0.0000 | Clave sifted: 514 bits
+2026-05-09 22:16:55,592 | INFO     |   [19] CON Eve: QBER=0.2551 | SIN Eve: QBER=0.0000 | Clave sifted: 490 bits
+2026-05-09 22:16:55,594 | INFO     |   [20] CON Eve: QBER=0.2495 | SIN Eve: QBER=0.0000 | Clave sifted: 509 bits
+2026-05-09 22:16:55,594 | INFO     | 
+  QBER promedio CON Eve: 0.2443 (σ=0.0183) — esperado teórico: 0.2500
+2026-05-09 22:16:55,594 | INFO     |   QBER promedio SIN Eve: 0.0000 — esperado teórico: 0.0000
+2026-05-09 22:16:55,594 | WARNING  |   Eve detectable en 20/20 simulaciones (100%)
+2026-05-09 22:16:55,594 | INFO     | 
+==========================================================
+2026-05-09 22:16:55,594 | INFO     | ATAQUE 2: Intercept-Resend Parcial (tasa variable)
+2026-05-09 22:16:55,594 | INFO     | ==========================================================
+2026-05-09 22:16:55,594 | INFO     |     Tasa Eve |  QBER obs. |  QBER teórico | Estado
+2026-05-09 22:16:55,594 | INFO     |   -------------------------------------------------------
+2026-05-09 22:16:55,613 | INFO     |          10% |     0.0264 |        0.0250 | ✓ sin detección
+2026-05-09 22:16:55,631 | INFO     |          20% |     0.0488 |        0.0500 | ✓ sin detección
+2026-05-09 22:16:55,652 | INFO     |          30% |     0.0702 |        0.0750 | ✓ sin detección
+2026-05-09 22:16:55,672 | INFO     |          40% |     0.0971 |        0.1000 | ✓ sin detección
+2026-05-09 22:16:55,693 | INFO     |          50% |     0.1272 |        0.1250 | ⚠ DETECTABLE
+2026-05-09 22:16:55,716 | INFO     |          60% |     0.1484 |        0.1500 | ⚠ DETECTABLE
+2026-05-09 22:16:55,740 | INFO     |          70% |     0.1729 |        0.1750 | ⚠ DETECTABLE
+2026-05-09 22:16:55,763 | INFO     |          80% |     0.2046 |        0.2000 | ⚠ DETECTABLE
+2026-05-09 22:16:55,787 | INFO     |          90% |     0.2260 |        0.2250 | ⚠ DETECTABLE
+2026-05-09 22:16:55,812 | INFO     |         100% |     0.2491 |        0.2500 | ⚠ DETECTABLE
+2026-05-09 22:16:55,812 | INFO     | 
+==========================================================
+2026-05-09 22:16:55,812 | INFO     | VULN-01: Sistema BB84 sin verificación de QBER
+2026-05-09 22:16:55,812 | INFO     | ==========================================================
+2026-05-09 22:16:55,813 | WARNING  |   QBER real: 0.2274 — sistema NO verifica ni aborta
+2026-05-09 22:16:55,813 | WARNING  |   Clave de 277 bits entregada con 63 errores no detectados
+2026-05-09 22:16:55,813 | WARNING  |   Eve conoce ~50% de la clave sifted (los bits donde acertó la base)
+2026-05-09 22:16:55,813 | INFO     | 
+==========================================================
+2026-05-09 22:16:55,813 | INFO     | VULN-02: Muestra de verificación insuficiente (10 bits)
+2026-05-09 22:16:55,813 | INFO     | ==========================================================
+2026-05-09 22:16:55,838 | WARNING  |   Eve pasó desapercibida en 25/100 casos (25%) usando muestra de 10 bits
+2026-05-09 22:16:55,838 | INFO     | 
+══════════════════════════════════════════════════════════
+2026-05-09 22:16:55,838 | INFO     | REPORTE FINAL DE VULNERABILIDADES
+2026-05-09 22:16:55,838 | INFO     | ══════════════════════════════════════════════════════════
+2026-05-09 22:16:55,838 | INFO     | 
+[VULN-01] Falla de IMPLEMENTACIÓN
+2026-05-09 22:16:55,838 | INFO     |   Descripción : El sistema acepta y usa la clave aunque el QBER supere el umbral seguro (11%).
+2026-05-09 22:16:55,838 | INFO     |   Impacto     : Eve obtiene información parcial de la clave sin que el sistema lo detecte.
+2026-05-09 22:16:55,838 | INFO     |   Mitigación  : Implementar verificación: si QBER > 0.11, abortar y reiniciar el protocolo.
+2026-05-09 22:16:55,838 | INFO     | 
+[VULN-02] Falla de IMPLEMENTACIÓN
+2026-05-09 22:16:55,838 | INFO     |   Descripción : Muestra de verificación de solo 10 bits: alta varianza estadística.
+2026-05-09 22:16:55,838 | INFO     |   Impacto     : Eve evade detección en ~25% de los intentos.
+2026-05-09 22:16:55,839 | INFO     |   Mitigación  : Usar muestra de al menos el 20-30% de los bits sifted para garantizar significancia estadística.
+2026-05-09 22:16:55,839 | INFO     | 
+[VULN-03] Limitación de PROTOCOLO (no de implementación)
+2026-05-09 22:16:55,839 | INFO     |   Descripción : BB84 no detecta a Eve si su tasa de intercepción es baja (< ~44% → QBER < 0.11). El protocolo base no incluye amplificación de privacidad ni corrección de errores.
+2026-05-09 22:16:55,839 | INFO     |   Impacto     : Eve puede extraer información parcial sin ser detectada con interceptación baja.
+2026-05-09 22:16:55,839 | INFO     |   Mitigación  : Incorporar Privacy Amplification y Error Correction (ej: reconciliación de Cascade).
+2026-05-09 22:16:55,839 | INFO     | 
+[DISTINCIÓN CLAVE]
+2026-05-09 22:16:55,839 | INFO     |   Falla de PROTOCOLO  → intrínseca al diseño de BB84, requiere extensión del protocolo
+2026-05-09 22:16:55,839 | INFO     |   Falla de IMPLEMENTACIÓN → decisión incorrecta del desarrollador, corregible en código
+2026-05-09 22:16:55,839 | INFO     | 
+Simulación finalizada. Log completo en: simulacion_bb84.log
+2026-05-09 22:22:11,526 | INFO     | INICIO DE SIMULACIÓN — ATAQUE SOBRE BB84
+2026-05-09 22:22:11,527 | INFO     | Sistema objetivo: Distribución Cuántica de Claves (QKD)
+
+2026-05-09 22:22:11,527 | INFO     | ==========================================================
+2026-05-09 22:22:11,527 | INFO     | ATAQUE 1: Intercept-Resend Total (Eve intercepta 100%)
+2026-05-09 22:22:11,527 | INFO     | ==========================================================
+2026-05-09 22:22:11,529 | INFO     |   [01] CON Eve: QBER=0.2576 | SIN Eve: QBER=0.0000 | Clave sifted: 528 bits
+2026-05-09 22:22:11,531 | INFO     |   [02] CON Eve: QBER=0.2315 | SIN Eve: QBER=0.0000 | Clave sifted: 527 bits
+2026-05-09 22:22:11,533 | INFO     |   [03] CON Eve: QBER=0.2631 | SIN Eve: QBER=0.0000 | Clave sifted: 517 bits
+2026-05-09 22:22:11,535 | INFO     |   [04] CON Eve: QBER=0.2306 | SIN Eve: QBER=0.0000 | Clave sifted: 516 bits
+2026-05-09 22:22:11,537 | INFO     |   [05] CON Eve: QBER=0.2149 | SIN Eve: QBER=0.0000 | Clave sifted: 498 bits
+2026-05-09 22:22:11,540 | INFO     |   [06] CON Eve: QBER=0.2224 | SIN Eve: QBER=0.0000 | Clave sifted: 517 bits
+2026-05-09 22:22:11,542 | INFO     |   [07] CON Eve: QBER=0.2646 | SIN Eve: QBER=0.0000 | Clave sifted: 480 bits
+2026-05-09 22:22:11,544 | INFO     |   [08] CON Eve: QBER=0.2243 | SIN Eve: QBER=0.0000 | Clave sifted: 486 bits
+2026-05-09 22:22:11,546 | INFO     |   [09] CON Eve: QBER=0.2227 | SIN Eve: QBER=0.0000 | Clave sifted: 467 bits
+2026-05-09 22:22:11,548 | INFO     |   [10] CON Eve: QBER=0.2656 | SIN Eve: QBER=0.0000 | Clave sifted: 482 bits
+2026-05-09 22:22:11,550 | INFO     |   [11] CON Eve: QBER=0.2552 | SIN Eve: QBER=0.0000 | Clave sifted: 478 bits
+2026-05-09 22:22:11,552 | INFO     |   [12] CON Eve: QBER=0.2475 | SIN Eve: QBER=0.0000 | Clave sifted: 505 bits
+2026-05-09 22:22:11,554 | INFO     |   [13] CON Eve: QBER=0.2569 | SIN Eve: QBER=0.0000 | Clave sifted: 510 bits
+2026-05-09 22:22:11,556 | INFO     |   [14] CON Eve: QBER=0.2440 | SIN Eve: QBER=0.0000 | Clave sifted: 500 bits
+2026-05-09 22:22:11,558 | INFO     |   [15] CON Eve: QBER=0.2583 | SIN Eve: QBER=0.0000 | Clave sifted: 511 bits
+2026-05-09 22:22:11,561 | INFO     |   [16] CON Eve: QBER=0.2203 | SIN Eve: QBER=0.0000 | Clave sifted: 513 bits
+2026-05-09 22:22:11,563 | INFO     |   [17] CON Eve: QBER=0.2279 | SIN Eve: QBER=0.0000 | Clave sifted: 509 bits
+2026-05-09 22:22:11,565 | INFO     |   [18] CON Eve: QBER=0.2743 | SIN Eve: QBER=0.0000 | Clave sifted: 514 bits
+2026-05-09 22:22:11,567 | INFO     |   [19] CON Eve: QBER=0.2551 | SIN Eve: QBER=0.0000 | Clave sifted: 490 bits
+2026-05-09 22:22:11,569 | INFO     |   [20] CON Eve: QBER=0.2495 | SIN Eve: QBER=0.0000 | Clave sifted: 509 bits
+2026-05-09 22:22:11,570 | INFO     | 
+  QBER promedio CON Eve: 0.2443 (σ=0.0183) — esperado teórico: 0.2500
+2026-05-09 22:22:11,570 | INFO     |   QBER promedio SIN Eve: 0.0000 — esperado teórico: 0.0000
+2026-05-09 22:22:11,570 | WARNING  |   Eve detectable en 20/20 simulaciones (100%)
+2026-05-09 22:22:11,570 | INFO     | 
+==========================================================
+2026-05-09 22:22:11,570 | INFO     | ATAQUE 2: Intercept-Resend Parcial (tasa variable)
+2026-05-09 22:22:11,570 | INFO     | ==========================================================
+2026-05-09 22:22:11,570 | INFO     |     Tasa Eve |  QBER obs. |  QBER teórico | Estado
+2026-05-09 22:22:11,570 | INFO     |   -------------------------------------------------------
+2026-05-09 22:22:11,589 | INFO     |          10% |     0.0264 |        0.0250 | ✓ sin detección
+2026-05-09 22:22:11,607 | INFO     |          20% |     0.0488 |        0.0500 | ✓ sin detección
+2026-05-09 22:22:11,629 | INFO     |          30% |     0.0702 |        0.0750 | ✓ sin detección
+2026-05-09 22:22:11,649 | INFO     |          40% |     0.0971 |        0.1000 | ✓ sin detección
+2026-05-09 22:22:11,674 | INFO     |          50% |     0.1272 |        0.1250 | ⚠ DETECTABLE
+2026-05-09 22:22:11,698 | INFO     |          60% |     0.1484 |        0.1500 | ⚠ DETECTABLE
+2026-05-09 22:22:11,721 | INFO     |          70% |     0.1729 |        0.1750 | ⚠ DETECTABLE
+2026-05-09 22:22:11,745 | INFO     |          80% |     0.2046 |        0.2000 | ⚠ DETECTABLE
+2026-05-09 22:22:11,771 | INFO     |          90% |     0.2260 |        0.2250 | ⚠ DETECTABLE
+2026-05-09 22:22:11,797 | INFO     |         100% |     0.2491 |        0.2500 | ⚠ DETECTABLE
+2026-05-09 22:22:11,797 | INFO     | 
+==========================================================
+2026-05-09 22:22:11,797 | INFO     | VULN-01: Sistema BB84 sin verificación de QBER
+2026-05-09 22:22:11,797 | INFO     | ==========================================================
+2026-05-09 22:22:11,798 | WARNING  |   QBER real: 0.2274 — sistema NO verifica ni aborta
+2026-05-09 22:22:11,798 | WARNING  |   Clave de 277 bits entregada con 63 errores no detectados
+2026-05-09 22:22:11,798 | WARNING  |   Eve conoce ~50% de la clave sifted (los bits donde acertó la base)
+2026-05-09 22:22:11,798 | INFO     | 
+==========================================================
+2026-05-09 22:22:11,798 | INFO     | VULN-02: Muestra de verificación insuficiente (10 bits)
+2026-05-09 22:22:11,798 | INFO     | ==========================================================
+2026-05-09 22:22:11,823 | WARNING  |   Eve pasó desapercibida en 25/100 casos (25%) usando muestra de 10 bits
+2026-05-09 22:22:11,823 | INFO     | 
+══════════════════════════════════════════════════════════
+2026-05-09 22:22:11,823 | INFO     | REPORTE FINAL DE VULNERABILIDADES
+2026-05-09 22:22:11,823 | INFO     | ══════════════════════════════════════════════════════════
+2026-05-09 22:22:11,823 | INFO     | 
+[VULN-01] Falla de IMPLEMENTACIÓN
+2026-05-09 22:22:11,824 | INFO     |   Descripción : El sistema acepta y usa la clave aunque el QBER supere el umbral seguro (11%).
+2026-05-09 22:22:11,824 | INFO     |   Impacto     : Eve obtiene información parcial de la clave sin que el sistema lo detecte.
+2026-05-09 22:22:11,824 | INFO     |   Mitigación  : Implementar verificación: si QBER > 0.11, abortar y reiniciar el protocolo.
+2026-05-09 22:22:11,824 | INFO     | 
+[VULN-02] Falla de IMPLEMENTACIÓN
+2026-05-09 22:22:11,824 | INFO     |   Descripción : Muestra de verificación de solo 10 bits: alta varianza estadística.
+2026-05-09 22:22:11,824 | INFO     |   Impacto     : Eve evade detección en ~25% de los intentos.
+2026-05-09 22:22:11,824 | INFO     |   Mitigación  : Usar muestra de al menos el 20-30% de los bits sifted para garantizar significancia estadística.
+2026-05-09 22:22:11,824 | INFO     | 
+[VULN-03] Limitación de PROTOCOLO (no de implementación)
+2026-05-09 22:22:11,824 | INFO     |   Descripción : BB84 no detecta a Eve si su tasa de intercepción es baja (< ~44% → QBER < 0.11). El protocolo base no incluye amplificación de privacidad ni corrección de errores.
+2026-05-09 22:22:11,824 | INFO     |   Impacto     : Eve puede extraer información parcial sin ser detectada con interceptación baja.
+2026-05-09 22:22:11,824 | INFO     |   Mitigación  : Incorporar Privacy Amplification y Error Correction (ej: reconciliación de Cascade).
+2026-05-09 22:22:11,824 | INFO     | 
+[DISTINCIÓN CLAVE]
+2026-05-09 22:22:11,824 | INFO     |   Falla de PROTOCOLO  → intrínseca al diseño de BB84, requiere extensión del protocolo
+2026-05-09 22:22:11,824 | INFO     |   Falla de IMPLEMENTACIÓN → decisión incorrecta del desarrollador, corregible en código
+2026-05-09 22:22:11,824 | INFO     | 
+Simulación finalizada. Log completo en: simulacion_bb84.log
